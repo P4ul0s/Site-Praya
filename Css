@@ -1,0 +1,154 @@
+body  {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #48D1CC;
+    color: #fff;
+    padding: 1px 20px;
+    border: 1px solid;
+    border-color: black;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #48D1CC;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+section.trabalhos{
+    margin : 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Conteudo-trabalhos{
+    width:400% ;
+    height: auto;
+    display: flex;
+}
+
+.Conteudo-trabalhos input{
+   display: none;
+}
+img {
+    width: 200px;
+}
+
+.slides{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slides img{
+    width: 100%;
+}
+
+.manual{
+    position: absolute;
+    width: 100%;
+    margin-top: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.manual .manual-prd, .auto div{
+    border: 1px solid #48D1CC;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.manual .manual-prd:not(:last-child){
+    margin-right: 10px;
+}
+
+.manual .manual-prd:hover{
+    background-color: #48D1CC;
+}
+
+
+
+#produto2:checked ~ .auto .prod2-auto{
+    background-color: #48D1CC;
+}
+
+#produto3:checked ~ .auto .prod3-auto{
+    background-color: #48D1CC;
+}
+
+#produto4:checked ~ .auto .prod4-auto{
+    background-color: #48D1CC;
+}
+
+#produto5:checked ~ .auto .prod5-auto{
+    background-color: #48D1CC;
+}
+
+#produto6:checked ~ .auto .prod6-auto{
+    background-color: #48D1CC;
+}
+
+#produto7:checked ~ .auto .prod7-auto{
+    background-color: #48D1CC;
+}
+
+#produto1:checked ~ .slides1{
+    margin-left: 0%;
+}
+
+#produto2:checked ~ .slides1{
+    margin-left: -25%;
+}
+
+#produto3:checked ~ .slides1{
+    margin-left: -50%;
+}
+
+#produto4:checked ~ .slides1{
+    margin-left: -75%;
+}
+
+#produto5:checked ~ .slides1{
+    margin-left: -100%;
+}
+
+#produto6:checked ~ .slides1{
+    margin-left: -125%;
+}
