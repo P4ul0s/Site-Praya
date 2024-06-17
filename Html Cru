@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praya Personalizados</title>
+    <link href="Quentin.css" rel="stylesheet" /> 
+    <script src="Quentin.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="Praya">
+        <h1>Praya Personalizados</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+      <section class="trabalhos">
+        	<div class="Conteudo-trabalhos">
+                <input type="produto" name="prd-produto" id="produto1">
+                <input type="produto" name="prd-produto" id="produto2">
+                <input type="produto" name="prd-produto" id="produto3">
+                <input type="produto" name="prd-produto" id="produto4">
+                <input type="produto" name="prd-produto" id="produto5">
+                <input type="produto" name="prd-produto" id="produto6">
+                <input type="produto" name="prd-produto" id="produto7">
+
+                
+                <div class="slides">
+                    <img src="Praya Fotos/ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕒𝕕𝕠𝕤 ℙ𝕣𝕒𝕪𝕒 🌊☀️𓆉 (@personalizadospraya) • Fotos e vídeos do Instagram_files/318090788_6418623134819932_3711788464085953780_n.webp"alt ="slide2">
+                </div>
+                <div class="slides">
+                    <img src="Praya Fotos/ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕒𝕕𝕠𝕤 ℙ𝕣𝕒𝕪𝕒 🌊☀️𓆉 (@personalizadospraya) • Fotos e vídeos do Instagram_files/320032393_1326627724548129_8380075022125952707_n.webp"alt ="slide3">
+                </div>
+                <div class="slides">
+                    <img src="Praya Fotos/ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕒𝕕𝕠𝕤 ℙ𝕣𝕒𝕪𝕒 🌊☀️𓆉 (@personalizadospraya) • Fotos e vídeos do Instagram_files/366157352_976791530196369_5322042840963079774_n.webp"alt ="slide4">
+                </div>
+                <div class="slides">
+                    <img src="Praya Fotos/ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕒𝕕𝕠𝕤 ℙ𝕣𝕒𝕪𝕒 🌊☀️𓆉 (@personalizadospraya) • Fotos e vídeos do Instagram_files/318477356_690489782421632_6331988804947072576_n.webp"alt ="slide5">
+                </div>
+                <div class="slides">
+                    <img src="Praya Fotos/ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕒𝕕𝕠𝕤 ℙ𝕣𝕒𝕪𝕒 🌊☀️𓆉 (@personalizadospraya) • Fotos e vídeos do Instagram_files/331104425_723170909218046_2120701701501657678_n.webp"alt ="slide6">
+                </div>
+                <div class="slides">
+                    <img src="Praya Fotos/ℙ𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕒𝕕𝕠𝕤 ℙ𝕣𝕒𝕪𝕒 🌊☀️𓆉 (@personalizadospraya) • Fotos e vídeos do Instagram_files/329779488_739760027541168_2114657674493842382_n.webp"alt ="slide7">
+                </div>
+
+                <div class="auto">
+
+                    <div class="prod2-auto"></div>
+                    <div class="prod3-auto"></div>
+                    <div class="prod4-auto"></div>
+                    <div class="prod5-auto"></div>
+                    <div class="prod6-auto"></div>
+                    <div class="prod7-auto"></div>
+                </div>
+
+                <div class="manual">
+
+                    <label for="produto2" class="manual-prd"></label>
+                    <label for="produto3" class="manual-prd"></label>
+                    <label for="produto4" class="manual-prd"></label>
+                    <label for="produto5" class="manual-prd"></label>
+                    <label for="produto6" class="manual-prd"></label>
+                    <label for="produto7" class="manual-prd"></label>
+
+                </div>
+                </div>
+        </section>
+        <section id="home">
+            <h2>Bem-vindo ao Praya Personalizados</h2>
+            Somos uma empresa de personalizados, trabalhamos com a personalização de itens como Chaveiros, itens para festas, camisetas, garrafas entre outros, confira acima alguns dos nossos trabalhos:</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <a href="https://api.whatsapp.com/message/R4XRJVA3WBS4C1?autoload=1&app_absent=0">whatsapp</a>
+            <p></p>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Praya Personalizados. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
