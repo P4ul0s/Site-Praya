@@ -1,0 +1,19 @@
+var manual = document.querySelector('.manual-prd')
+var cont = 2
+
+document.getElementById('produto1').checked = true
+
+setInterval(() => {
+    proximoprd()
+}, 5000)
+
+function proximoprd(){
+    cont++
+
+    if(cont>7){
+        cont = 2
+    }
+
+    document.getElementById('produto'+cont).checked = true
+
+}
